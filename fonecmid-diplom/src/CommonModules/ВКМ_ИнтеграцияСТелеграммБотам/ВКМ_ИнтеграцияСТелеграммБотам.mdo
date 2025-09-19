@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36252bcb-c1dd-45f8-ae3d-5a7f4133b66a">
+  <name>ВКМ_ИнтеграцияСТелеграммБотам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с телеграмм ботам</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

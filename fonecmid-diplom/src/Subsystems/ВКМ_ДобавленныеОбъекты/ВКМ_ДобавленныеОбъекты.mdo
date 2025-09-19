@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a00e9af3-4bf8-400a-8458-5969fccc5fb3">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ВКМ_РаботаСФормами</content>
+  <content>DefinedType.ВКМ_Денежный</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграммБотом</content>
+  <content>Catalog.ВКМ_УведомленияТелеграммБоту</content>
+  <content>CommonModule.ВКМ_ИнтеграцияСТелеграммБотам</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомлений</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ДобавленияИИзмененияОбслуживанияКлиента</content>
+  <content>Role.ВКМ_ИспользованияМассовогоСозданиеАктов</content>
+</mdclass:Subsystem>
