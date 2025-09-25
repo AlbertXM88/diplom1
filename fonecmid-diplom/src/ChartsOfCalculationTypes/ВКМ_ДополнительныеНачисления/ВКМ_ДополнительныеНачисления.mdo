@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3da38f0-c6d3-4d07-b9df-53797a671148">
+  <producedTypes>
+    <objectType typeId="f023989f-d4a3-4b89-a80a-07dc77589ecc" valueTypeId="451927e3-9e95-435b-b777-8db3a6f79cdf"/>
+    <refType typeId="4c78f832-9332-4ed5-9eda-2ea5c69af497" valueTypeId="c34bef9d-516f-4b4b-8483-e17259686824"/>
+    <selectionType typeId="5c22285a-75aa-416e-ba04-63b45413c7aa" valueTypeId="04d58789-c027-411b-b778-86d3bfecef61"/>
+    <listType typeId="6ac31167-1f80-4c26-b776-8b422d2ee3ea" valueTypeId="d1242ebc-54dd-4a3b-b962-456715bb21d7"/>
+    <managerType typeId="ac399f87-e595-4604-a810-af66d7537200" valueTypeId="6bb6d33f-0ccf-41c3-b3c4-87d878be5b57"/>
+    <displacingCalculationTypesType typeId="2d7f847a-ff91-447b-ab99-c43075a5a8fa" valueTypeId="579658ee-767e-4c77-8473-ae31ce3dc4b1"/>
+    <displacingCalculationTypesRowType typeId="ef5f27e7-a10e-43bd-8038-d81625688fa6" valueTypeId="ee3e41d0-3f7e-4f67-b3af-726c044db12a"/>
+    <baseCalculationTypesType typeId="8e8d74d4-5bd2-495a-8ba0-20eb485fd18c" valueTypeId="75e59039-68da-4ff6-8380-4ffcb0a3d41c"/>
+    <baseCalculationTypesRowType typeId="b24a18f1-310e-4a9f-9aa8-42c238d3e417" valueTypeId="6397e1ab-d618-4073-8b64-b3441461dc09"/>
+    <leadingCalculationTypesType typeId="61a94d5c-e99d-4b6e-b96d-e0ae1d30d2e3" valueTypeId="b18e099b-59bc-4a77-aa4e-0d65f953721a"/>
+    <leadingCalculationTypesRowType typeId="101d43b6-c127-4f12-a56c-650d419a765b" valueTypeId="b2c1c859-113f-488c-93ae-f8e3e75338db"/>
+  </producedTypes>
+  <name>ВКМ_ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительное начисление</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <predefined>
+    <items id="e30d5821-2bd4-455c-be7e-2fd9b188b379">
+      <name>ФексированаяПремия</name>
+      <description>Фексированая премия</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

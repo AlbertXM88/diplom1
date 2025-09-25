@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78b6e089-4d83-493a-9006-5b33c3889559">
+  <producedTypes>
+    <selectionType typeId="18994a1d-9d52-40b7-8b77-231295c32f89" valueTypeId="0b7662d2-b0c8-49f4-b288-8e4fd304ee03"/>
+    <listType typeId="6cded7ea-26f1-48bd-b08f-5b8992877923" valueTypeId="196b345d-fe6e-44a1-9eb7-b5996f25c322"/>
+    <managerType typeId="5201b00b-1eef-49d3-9ba0-9ab7e7bea26c" valueTypeId="48f17fa7-2f38-4c43-8d0f-abf263379566"/>
+    <recordSetType typeId="34056488-6dd3-461e-aa14-5b09a5516056" valueTypeId="98d54b30-9ec3-4732-a862-3ba48e2649d1"/>
+    <recordKeyType typeId="baa1eee9-54fd-43d9-97a5-a745453ba6c6" valueTypeId="afba3091-882b-479e-985a-7c30578dc546"/>
+    <recordType typeId="d90b04ee-2355-403a-bcca-7ac1a4d85ee2" valueTypeId="0bc3cda4-9990-4925-ad00-620f6c99b693"/>
+  </producedTypes>
+  <name>ВКМ_ВзаиморасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4176a462-e575-487d-ad18-76ddf195bebe">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Денежный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6016a35b-3a16-4a7f-95ab-ce24b8976187">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

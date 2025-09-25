@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="987ea58d-4abf-4058-be3e-c2f0e2d97aac">
+  <producedTypes>
+    <selectionType typeId="2d6f0b00-e53a-4c00-9dd6-008688cd44ad" valueTypeId="28694591-5ade-49f9-8405-e553267f7d6a"/>
+    <listType typeId="97aca7e6-48f8-4325-8ca2-17fadc57d827" valueTypeId="153ee96b-0a5f-4a0e-a067-bcdfd895d58d"/>
+    <managerType typeId="dfd27b3d-63bd-4be4-97d5-3c972545c94c" valueTypeId="cb02307d-c2f4-49be-8f90-cc427178d76f"/>
+    <recordSetType typeId="b895a0ea-4510-4899-9859-2de472299b5d" valueTypeId="c449611a-9d78-492d-b3fa-a59569074dde"/>
+    <recordKeyType typeId="06591628-3ddd-47bc-9e16-effc4a30e137" valueTypeId="0c9a02a1-9293-41de-8c53-778c4f401ac3"/>
+    <recordType typeId="563c9700-ceff-4aaf-b009-1caa2baddb3c" valueTypeId="f7d413ac-a358-4c0e-8efd-76bcff96a9da"/>
+  </producedTypes>
+  <name>ВКМ_ВыполненныеСотрудникомРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные сотрудником работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0f3ed0f1-4ece-455e-8948-f6d134bacd38">
+    <name>ЧасовКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часов к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0ea8fc7b-fbf6-4a23-95dd-94afb2eb166e">
+    <name>СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Денежный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="42eb9687-67da-4b12-8ea1-08968e6c2976">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
