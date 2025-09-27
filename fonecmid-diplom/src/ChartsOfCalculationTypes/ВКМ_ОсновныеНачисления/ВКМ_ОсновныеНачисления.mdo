@@ -16,7 +16,7 @@
   <name>ВКМ_ОсновныеНачисления</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ основные начисления</value>
+    <value>Основные начисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Code</inputByString>
@@ -48,13 +48,6 @@
       </code>
       <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпускные</displaced>
     </items>
-    <items id="05f53286-c464-41ed-9ccf-f64d605163b1">
-      <name>ПроцентОтВыполненыхРабот</name>
-      <description>Процент от выполненых работ</description>
-      <code xsi:type="core:StringValue">
-        <value>2</value>
-      </code>
-    </items>
     <items id="278c0585-b942-4762-bc84-ba5a49d1ee16">
       <name>Отпускные</name>
       <description>Отпускные</description>
@@ -65,6 +58,13 @@
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПроцентОтВыполненыхРабот</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПроцентОтВыполненыхРабот</leading>
+    </items>
+    <items id="05f53286-c464-41ed-9ccf-f64d605163b1">
+      <name>ПроцентОтВыполненыхРабот</name>
+      <description>Процент от выполненых работ</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

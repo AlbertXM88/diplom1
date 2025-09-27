@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Пользователи</value>
   </synonym>
-  <comment>АПК:413 - №744.2.1.1 Допустимо не отключать историю выбора, так как она используется, а переопределение отбора фиксированное, то есть служебные и недействительные пользователи в нее не попадут, но если как-то попали, то это не является проблемой</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -253,6 +252,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>

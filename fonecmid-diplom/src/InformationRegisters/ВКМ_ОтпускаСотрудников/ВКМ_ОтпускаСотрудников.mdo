@@ -12,7 +12,7 @@
   <name>ВКМ_ОтпускаСотрудников</name>
   <synonym>
     <key>ru</key>
-    <value>Отпуска сотрдников</value>
+    <value>Отпуска сотрудников</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

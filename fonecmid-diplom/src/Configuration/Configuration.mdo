@@ -54,7 +54,8 @@
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
-  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_РаботаСзаявкамиКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -1055,6 +1056,8 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
