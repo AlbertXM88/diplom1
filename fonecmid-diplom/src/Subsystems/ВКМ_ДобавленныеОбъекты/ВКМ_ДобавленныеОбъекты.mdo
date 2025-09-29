@@ -16,7 +16,6 @@
   <content>CommonModule.ВКМ_ИнтеграцияСТелеграммБотам</content>
   <content>ScheduledJob.ВКМ_ОтправкаУведомлений</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
-  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
@@ -36,4 +35,5 @@
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
 </mdclass:Subsystem>

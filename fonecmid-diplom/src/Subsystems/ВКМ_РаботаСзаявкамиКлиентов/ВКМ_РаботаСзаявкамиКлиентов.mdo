@@ -11,7 +11,7 @@
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Контрагенты</content>
-  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

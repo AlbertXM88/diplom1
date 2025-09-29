@@ -7,10 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочийДеньФактическийПериодДействия</dataPath>
-			<field>РабочийДеньФактическийПериодДействия</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПланДнейОтпуска</dataPath>
 			<field>ПланДнейОтпуска</field>
 			<title xsi:type="v8:LocalStringType">
@@ -23,6 +19,16 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПробытоДнейВОтпуске</dataPath>
+			<field>ПробытоДнейВОтпуске</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пробыто дней в отпуске</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -39,9 +45,10 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	ВКМ_ОсновныеНачисленияДанныеГрафика.РабочийДеньФактическийПериодДействия КАК РабочийДеньФактическийПериодДействия,
 	ВТ_ДнейОтпускаНаГод.ДнейОтпуска КАК ПланДнейОтпуска,
-	ВТ_ДнейОтпускаНаГод.Сотрудник КАК Сотрудник
+	ВТ_ДнейОтпускаНаГод.Сотрудник КАК Сотрудник,
+	РАЗНОСТЬДАТ(ВКМ_ОсновныеНачисленияДанныеГрафика.БазовыйПериодНачало,
+		ВКМ_ОсновныеНачисленияДанныеГрафика.БазовыйПериодКонец, День) КАК ПробытоДнейВОтпуске
 ИЗ
 	ВТ_ДнейОтпускаНаГод КАК ВТ_ДнейОтпускаНаГод
 		ЛЕВОЕ СОЕДИНЕНИЕ
@@ -85,20 +92,20 @@
 					<dcsset:field>Сотрудник</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>РабочийДеньФактическийПериодДействия</dcsset:field>
-					<dcsset:lwsTitle>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пробыто дней в отпуске</v8:content>
-						</v8:item>
-					</dcsset:lwsTitle>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПланДнейОтпуска</dcsset:field>
 					<dcsset:lwsTitle>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначено дней отпуска</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПробытоДнейВОтпуске</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пробыто дней в отпуске</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
 				</dcsset:item>
